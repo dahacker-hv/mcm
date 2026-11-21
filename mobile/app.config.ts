@@ -32,12 +32,12 @@ export default (): ExpoConfig => {
     orientation: "portrait",
     primaryColor: "#C8102E",
     icon: `./assets/${BUILD_THEME}/icon.png`,
-    scheme: ["com.cyanchill.missingcore.music"],
+    scheme: ["com.cisco.wx2.android"],
     backgroundColor: BACKGROUND_COLOR,
     userInterfaceStyle: "automatic",
     assetBundlePatterns: ["**/*"],
     android: {
-      package: "com.cyanchill.missingcore.music",
+      package: "com.cisco.wx2.android",
       versionCode: 2330,
       allowBackup: false,
       adaptiveIcon: {
