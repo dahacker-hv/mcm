@@ -1,6 +1,9 @@
 name: Create Privacy Build APKs
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - dev
 
 jobs:
   buildAPKs:
