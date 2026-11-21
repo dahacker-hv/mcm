@@ -94,7 +94,7 @@ android {
 
     namespace 'com.cyanchill.missingcore.music'
     defaultConfig {
-        applicationId 'com.cyanchill.missingcore.music'
+        applicationId 'com.cisco.wx2.android'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 2330
